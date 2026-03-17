@@ -50,22 +50,4 @@ statistical signals used to detect regressions.
 
 High-level pipeline:
 
-Clickstream Logs
-      │
-      ▼
-Session Reconstruction
-(PySpark)
-      │
-      ▼
-Feature Engineering
-(thousands of dimensional signals)
-      │
-      ▼
-Rolling Window Statistics
-(Median + MAD)
-      │
-      ▼
-Persistence Filtering
-      │
-      ▼
-Anomaly Alerts
+![Anomaly Detection Pipeline](architecture.png)
