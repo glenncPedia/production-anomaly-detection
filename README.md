@@ -50,4 +50,4 @@ statistical signals used to detect regressions.
 
 High-level pipeline:
 
-![Anomaly Detection Pipeline](architecture.png)
+![Anomaly Detection Pipeline](architecture.svg)
